@@ -1,16 +1,16 @@
-print("Are you a TRUE fan of eveybody hates chris? Lets find out!")
-chris = input("Who is chris best friend? ")
+print("Everybody hates Chris")
+chris = input("WHat is chris's best friend?")
 if chris == "greg":
- print("You are correct!")
-else:
- print("Cmon this was an EASY one!")  
-killmove = input("Who is the name of the homeless guy on the street? ")
-if killmove == "killmove":
-  print("You are correct! I know you atleast watched the show now!")
-else:
- print("Keep trying this one was a bit harder for others as well!")
-tasha = input("Who is the girl Chris dated? ")
-if tasha == "tasha":
-  print("You are correct! I knew you were a true fan!")
+  print("Correct")
+  workplace = input("Where does chris work?")
+  if workplace == "docs":
+    print("Correct")
+    chrisSister = input("What is chris's sister's name?")
+    if chrisSister == "tanya":
+      print("Correct! You are a TRUE fan of everybody hates Chris! Congratulations!")
+    else:
+      print("wrong")
+  else:
+    print("wrong")
 else: 
-  print("You are wrong! It looks like your not a true fan afterall.")
+  print("wrong")
