@@ -1,3 +1,4 @@
+name = input("What is your name? ")
 print("Hello " + name + "!")
 print("I am a affirmation genie! Please answer these questions to get your affirmation!")
 continued = input("Do you wish to continue? ")
